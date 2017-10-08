@@ -9,6 +9,18 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.gitattributes": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/__index.html": {
 		"ft": 8192,
 		"oA": 1,

@@ -8,9 +8,9 @@ $( document ).ready(function() {
 	    //verticalCentered: false
     });
     
-    $(".arethey h2").fitText(0.5, { minFontSize: '100px', maxFontSize: '180px' });
+    $(".arethey h2").fitText(0.5, { minFontSize: '80px', maxFontSize: '180px' });
     
-    var genNo = ["No", "Nope", "Nah", "Nay", "No Chance", "No Way", "Hell Nah"],
+    var genNo = ["No", "Nope", "Nah", "Nay", "No Chance", "No Way"],
     	genNo = genNo[Math.floor(Math.random() * genNo.length)];
     	
     var genYes = ["Yes", "Yea", "Uh-Huh", "Yup", "We Back", "Yessir", "Totally", "Sure", "You Bet"],
@@ -34,7 +34,8 @@ $( document ).ready(function() {
 		
 		var game = data.gscd.g;
 		
-		var gamenum = 0;
+		var gamenum = 3;
+		gamenum = gamenum - 1;
 		
 		var getfinal = "Final";
 		
