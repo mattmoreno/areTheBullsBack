@@ -9,9 +9,9 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Are the Bulls Back?</title>
-	<meta name="description" content="DESCRIPTION STARTING WITH FIRST KEYWORD" />
-	<meta name="keywords" content="KEYWORDS" />
+	<title>Are the Bulls Back? | Chicago Bulls Win Check</title>
+	<meta name="description" content="Did the Chicago Bulls win last night? Find out here at AreTheBullsBack.com" />
+	<meta name="keywords" content="Chicago Bulls, Bulls, Basketball, Chicago, NBA" />
 	<meta name="author" content="">
 
 	<!-- Mobile Specific Metas
@@ -31,10 +31,7 @@
 
 	<!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="http://i.cdn.turner.com/drp/nba/bulls/sites/default/files/bulls_favicon.ico" type="image/vnd.microsoft.icon" />
 	
 	
 	<script>

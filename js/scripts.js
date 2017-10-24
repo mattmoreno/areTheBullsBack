@@ -27,14 +27,14 @@ $( document ).ready(function() {
 
 	$.ajaxSetup({ cache: false });
 	
-	$.getJSON("feed/1718/bulls_schedule_01.json",
+	$.getJSON("feed/1718/bulls_schedule_02.json",
 	function(data){
 	
 		console.log(data);
 		
 		var game = data.gscd.g;
 		
-		var gamenum = 3;
+		var gamenum = 2;
 		gamenum = gamenum - 1;
 		
 		var getfinal = "Final";
@@ -45,7 +45,7 @@ $( document ).ready(function() {
 		var status = game[gamenum].stt;
 		
 		if (status == "Final") {
-			$(".arethey h2").append(genYes);
+			$(".arethey h2").append(genNo);
 		} else {
 			$(".arethey h2").append(genNotSure);
 		}
