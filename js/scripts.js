@@ -27,14 +27,14 @@ $( document ).ready(function() {
 
 	$.ajaxSetup({ cache: false });
 	
-	$.getJSON("feed/1718/bulls_schedule_02.json",
+	$.getJSON("feed/1718/bulls_schedule_02.json?nocache=" + (new Date()).getTime(),
 	function(data){
 	
 		console.log(data);
 		
 		var game = data.gscd.g;
 		
-		var gamenum = 3;
+		var gamenum = 6;
 		gamenum = gamenum - 1;
 		
 		var getfinal = "Final";
@@ -50,6 +50,7 @@ $( document ).ready(function() {
 			$(".arethey h2").append(genNotSure);
 		}
 		
+		console.log(genYes);
 		
 		// DATE - ARENA
 		var newDate = moment(game[gamenum].gdte).format('dddd, MMMM D, YYYY');

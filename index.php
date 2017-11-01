@@ -84,6 +84,6 @@
 
 <!-- End Document
 ================================================== -->
-<script src="js/min/scripts-min.js"></script>
+<script src="js/min/scripts.js"></script>
 </body>
 </html>
