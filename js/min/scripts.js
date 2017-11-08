@@ -20305,7 +20305,7 @@ $( document ).ready(function() {
 		
 		var game = data.gscd.g;
 		
-		var gamenum = 6;
+		var gamenum = 9;
 		gamenum = gamenum - 1;
 		
 		var getfinal = "Final";
