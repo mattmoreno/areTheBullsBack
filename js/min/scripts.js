@@ -20305,7 +20305,7 @@ $( document ).ready(function() {
 		
 		var game = data.gscd.g;
 		
-		var gamenum = 9;
+		var gamenum = 28;
 		gamenum = gamenum - 1;
 		
 		var getfinal = "Final";
@@ -20316,7 +20316,7 @@ $( document ).ready(function() {
 		var status = game[gamenum].stt;
 		
 		if (status == "Final") {
-			$(".arethey h2").append(genNo);
+			$(".arethey h2").append(genYes);
 		} else {
 			$(".arethey h2").append(genNotSure);
 		}
