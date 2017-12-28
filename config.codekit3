@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/.ftpconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.ftpconfig",
+		"oF": 0
+		},
 	"\/.gitattributes": {
 		"cB": 0,
 		"ft": 8192,
