@@ -35,6 +35,7 @@
   "dependencies": {
     "fullpage.js": "^2.9.4",
     "FitText.js": "^1.2.0",
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }

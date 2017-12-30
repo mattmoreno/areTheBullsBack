@@ -2,3 +2,4 @@
 *.psd
 *.codekit3
 .ftpconfig
+.ftpignore

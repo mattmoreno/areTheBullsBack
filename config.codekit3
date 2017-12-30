@@ -16,6 +16,13 @@
 		"oAP": "\/.ftpconfig",
 		"oF": 0
 		},
+	"\/.ftpignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.ftpignore",
+		"oF": 0
+		},
 	"\/.gitattributes": {
 		"cB": 0,
 		"ft": 8192,
@@ -6831,15 +6838,77 @@
 		"sC": 2,
 		"tS": 0
 		},
-	"\/bower_components\/fullpage.js\/jquery.fullPage.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"\/bower_components\/fullpage.js\/lang\/russian\/how-to-activate-fullpage-extension.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"oA": 2,
-		"oAP": "\/bower_components\/fullpage.js\/jquery.fullPage.min.js",
+		"oAP": "\/bower_components\/fullpage.js\/lang\/russian\/how-to-activate-fullpage-extension.md",
 		"oF": 0,
-		"sC": 2,
-		"tS": 0
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/fullpage.js\/lang\/russian\/parallax-extension.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/fullpage.js\/lang\/russian\/parallax-extension.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/fullpage.js\/lang\/russian\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/fullpage.js\/lang\/russian\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/fullpage.js\/lang\/spanish\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/fullpage.js\/lang\/spanish\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/bower_components\/fullpage.js\/LICENSE": {
 		"cB": 0,
@@ -6929,24 +6998,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/bower_components\/fullpage.js\/README_SPANISH.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/fullpage.js\/README_SPANISH.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/bower_components\/fullpage.js\/vendors\/jquery.easings.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -6976,6 +7027,13 @@
 		"oF": 0,
 		"sC": 2,
 		"tS": 0
+		},
+	"\/bower_components\/fullpage.js\/vendors\/scrolloverflow.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/fullpage.js\/vendors\/scrolloverflow.min.js.map",
+		"oF": 0
 		},
 	"\/bower_components\/jquery-ui\/.bower.json": {
 		"ft": 524288,
@@ -15113,6 +15171,16 @@
 		"sC": 2,
 		"tS": 0
 		},
+	"\/bower_components\/moment\/locale\/bm.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/moment\/locale\/bm.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
 	"\/bower_components\/moment\/locale\/bn.js": {
 		"ft": 64,
 		"ma": 0,
@@ -15323,6 +15391,16 @@
 		"sC": 2,
 		"tS": 0
 		},
+	"\/bower_components\/moment\/locale\/es-us.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/moment\/locale\/es-us.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
 	"\/bower_components\/moment\/locale\/es.js": {
 		"ft": 64,
 		"ma": 0,
@@ -15449,6 +15527,16 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/moment\/locale\/gom-latn.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
+	"\/bower_components\/moment\/locale\/gu.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/moment\/locale\/gu.js",
 		"oF": 0,
 		"sC": 2,
 		"tS": 0
@@ -15719,6 +15807,16 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/moment\/locale\/ms.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
+	"\/bower_components\/moment\/locale\/mt.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/moment\/locale\/mt.js",
 		"oF": 0,
 		"sC": 2,
 		"tS": 0
@@ -16203,16 +16301,6 @@
 		"sC": 2,
 		"tS": 0
 		},
-	"\/bower_components\/moment\/min\/tests.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/moment\/min\/tests.js",
-		"oF": 0,
-		"sC": 2,
-		"tS": 0
-		},
 	"\/bower_components\/moment\/moment.d.ts": {
 		"cDF": 0,
 		"ft": 128,
@@ -16414,6 +16502,16 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/bower_components\/moment\/src\/lib\/duration\/bubble.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
+	"\/bower_components\/moment\/src\/lib\/duration\/clone.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/moment\/src\/lib\/duration\/clone.js",
 		"oF": 0,
 		"sC": 2,
 		"tS": 0
@@ -17248,6 +17346,16 @@
 		"sC": 2,
 		"tS": 0
 		},
+	"\/bower_components\/moment\/src\/lib\/utils\/mod.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/moment\/src\/lib\/utils\/mod.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
 	"\/bower_components\/moment\/src\/lib\/utils\/some.js": {
 		"ft": 64,
 		"ma": 0,
@@ -17384,6 +17492,16 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/moment\/src\/locale\/bg.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
+	"\/bower_components\/moment\/src\/locale\/bm.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/moment\/src\/locale\/bm.js",
 		"oF": 0,
 		"sC": 2,
 		"tS": 0
@@ -17598,6 +17716,16 @@
 		"sC": 2,
 		"tS": 0
 		},
+	"\/bower_components\/moment\/src\/locale\/es-us.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/moment\/src\/locale\/es-us.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
 	"\/bower_components\/moment\/src\/locale\/es.js": {
 		"ft": 64,
 		"ma": 0,
@@ -17724,6 +17852,16 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/moment\/src\/locale\/gom-latn.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
+	"\/bower_components\/moment\/src\/locale\/gu.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/moment\/src\/locale\/gu.js",
 		"oF": 0,
 		"sC": 2,
 		"tS": 0
@@ -17994,6 +18132,16 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/moment\/src\/locale\/ms.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
+	"\/bower_components\/moment\/src\/locale\/mt.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/moment\/src\/locale\/mt.js",
 		"oF": 0,
 		"sC": 2,
 		"tS": 0
@@ -18913,23 +19061,6 @@
 		"oF": 3,
 		"sC": 2,
 		"tS": 0
-		},
-	"\/less\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/less\/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/less\/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/less\/style.css.map",
-		"oF": 0
 		},
 	"\/less\/style.less": {
 		"aP": 0,
