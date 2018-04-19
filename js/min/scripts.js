@@ -20110,7 +20110,7 @@ $( document ).ready(function() {
 
 		var game = data.gscd.g;
 
-		var gamenum = 71;
+		var gamenum = 82;
 		gamenum = gamenum - 1;
 
 		var getfinal = "Final";
