@@ -18748,6 +18748,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/feed/1819/bulls_schedule_02.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/feed/1819/bulls_schedule_02-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/fonts/fontawesome-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,

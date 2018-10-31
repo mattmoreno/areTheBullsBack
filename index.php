@@ -9,7 +9,7 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Are the Bulls Back? | Chicago Bulls Win Check</title>
+	<title>Are the Bulls Back? | Did the Bulls Win? | Chicago Bulls Win Check</title>
 	<meta name="description" content="Did the Chicago Bulls win last night? Find out here at AreTheBullsBack.com" />
 	<meta name="keywords" content="Chicago Bulls, Bulls, Basketball, Chicago, NBA" />
 	<meta name="author" content="">
@@ -32,19 +32,19 @@
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="http://i.cdn.turner.com/drp/nba/bulls/sites/default/files/bulls_favicon.ico" type="image/vnd.microsoft.icon" />
-	
-	
+
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	
+
 	  ga('create', 'UA-102024121-1', 'auto');
 	  ga('send', 'pageview');
-	
+
 	</script>
-   
+
 </head>
 <body>
 
@@ -54,14 +54,14 @@
 ================================================== -->
 
 <div id="fullpage">
-	
+
 	<div class="section ucbg">
 		<div class="container">
 			<h1>Are the Bulls Back?</h1>
 			<div class="arethey">
 				<h2></h2>
 			</div>
-			
+
 			<div class="boxscore clearfix">
 				<div class="col-md-4 col-md-offset-4">
 					<div class="gameinfo text-center">
@@ -75,10 +75,10 @@
 					<div id="fullbox" class="fullbox"></div>
 				</div>
 			</div>
-						
+
 		</div>
 	</div>
-	
+
 </div>
 
 

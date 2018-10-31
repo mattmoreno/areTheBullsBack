@@ -27,16 +27,17 @@ $( document ).ready(function() {
 
 	$.ajaxSetup({ cache: false });
 
-	$.getJSON("feed/1718/bulls_schedule_02.json?nocache=" + (new Date()).getTime(),
+	$.getJSON("feed/1819/bulls_schedule_02.json?nocache=" + (new Date()).getTime(),
 	function(data){
 
 		console.log(data);
 
 		var game = data.gscd.g;
 
-		var gamenum = 82;
-		gamenum = gamenum - 1;
+    // CHANGE THIS NUMBER
+		var gamenum = 8;
 
+		gamenum = gamenum - 1;
 		var getfinal = "Final";
 
 		console.log(game[game.length - 1]['stt']);
