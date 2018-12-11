@@ -35,7 +35,7 @@ $( document ).ready(function() {
 		var game = data.gscd.g;
 
     // CHANGE THIS NUMBER
-		var gamenum = 8;
+		var gamenum = 28;
 
 		gamenum = gamenum - 1;
 		var getfinal = "Final";
