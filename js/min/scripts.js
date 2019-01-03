@@ -20111,7 +20111,7 @@ $( document ).ready(function() {
 		var game = data.gscd.g;
 
     // CHANGE THIS NUMBER
-		var gamenum = 35;
+		var gamenum = 38;
 
 		gamenum = gamenum - 1;
 		var getfinal = "Final";
