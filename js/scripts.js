@@ -35,7 +35,7 @@ $( document ).ready(function() {
 		var game = data.gscd.g;
 
     // CHANGE THIS NUMBER
-		var gamenum = 64;
+		var gamenum = 69;
 
 		gamenum = gamenum - 1;
 		var getfinal = "Final";
@@ -46,7 +46,7 @@ $( document ).ready(function() {
 		var status = game[gamenum].stt;
 
 		if (status == "Final") {
-			$(".arethey h2").append(genNo);
+			$(".arethey h2").append(genYes);
 		} else {
 			$(".arethey h2").append(genNotSure);
 		}
