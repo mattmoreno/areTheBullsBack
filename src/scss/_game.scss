@@ -1,0 +1,113 @@
+/*==================================================
+	NBA TEAMS
+====================================================*/
+$atl:	#E03A3E;
+$bos:	#008248;
+$bkn:	#0F1216;
+$cha:	#26245C;
+$chi:	#CE1141;
+$cle:	#73243D;
+$dal:	#007DC5;
+$den:	#041E41;
+$det:	#003DA6;
+$gsw:	#FFC627;
+$hou:	#B92142;
+$ind:	#002D62;
+$lac:	#006BB5;
+$lal:	#552583;
+$mem:	#B8CFE9;
+$mia:	#8B2332;
+$mil:	#00471A;
+$min:	#005083;
+$nop:	#002B5C;
+$nyk:	#006BB6;
+$okc:	#0071CE;
+$orl:	#0B77BD;
+$phi:	#FFFFFF;
+$phx:	#000000;
+$por:	#000000;
+$sac:	#5A2D81;
+$sas:	#2D2925;
+$tor:	#bd1b21;
+$uta:	#0D223F;
+$was:	#0D2240;
+
+
+.ucbg { color:$white; position: relative; padding-top:80px; height: 100%; /*min-height:650px; margin-top:10px;*/  }
+.ucbg h1 { text-align:center; font-size:12px; font-weight:300; text-transform: uppercase; position: absolute; width:100%; top:25px; left:0; }
+.ucbg h2 { font-weight:900; font-size:80px; text-align:center; text-transform: uppercase; }
+
+.arethey { /*margin-top:60px;*/ margin-bottom:80px; }
+
+.boxscore { /*position: absolute; bottom: 20px; right:0; width: 100%;*/ }
+.gameinfo {  }
+.gameinfo h4, .gameinfo h5 { font-weight:500; font-size:18px; text-transform: uppercase; }
+	.gameinfo h5 { font-size:14px; }
+.team {  }
+	.team.atl { background:$atl; }
+	.team.bos { background:$bos; }
+	.team.bkn { background:$bkn; }
+	.team.cha { background:$cha; }
+	.team.chi { background:$chi; }
+	.team.cle { background:$cle; }
+	.team.dal { background:$dal; }
+	.team.den { background:$den; }
+	.team.det { background:$det; }
+	.team.gsw { background:$gsw; }
+	.team.hou { background:$hou; }
+	.team.ind { background:$ind; }
+	.team.lac { background:$lac; }
+	.team.lal { background:$lal; }
+	.team.mem { background:$mem; }
+	.team.mia { background:$mia; }
+	.team.mil { background:$mil; }
+	.team.min { background:$min; }
+	.team.nop { background:$nop; }
+	.team.nyk { background:$nyk; }
+	.team.okc { background:$okc; }
+	.team.orl { background:$orl; }
+	.team.phi { background:$phi; }
+	.team.phx { background:$phx; }
+	.team.por { background:$por; }
+	.team.sac { background:$sac; }
+	.team.sas { background:$sas; }
+	.team.tor { background:$tor; }
+	.team.uta { background:$uta; }
+	.team.was { background:$was; }
+
+
+.team img { width:75%; }
+.score { background:rgba($black, 0.8); color:$white; font-weight:700; font-size:58px; text-align:center; }
+.fullbox { font-weight:500; text-align: center; text-transform: uppercase; font-size:14px; margin-top:30px; margin-bottom:30px; clear:both; }
+	.fullbox > a { color:$white; }
+
+/*==================================================
+           Bootstrap 4 Media Queries
+====================================================*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	#introduction p.lead { font-size:24px; }
+	.ucbg { min-height:0; }
+	.ucbg h2 { font-size:180px; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
