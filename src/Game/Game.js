@@ -34,7 +34,7 @@ class Game extends Component {
       .then(data => {
         this.setState({
           games: data.gscd.g,
-          myTeamGame: 0
+          myTeamGame: 1
         })
       }, () => {
         this.setState({
