@@ -8,7 +8,8 @@ class Game extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      requestFailed: false
+      requestFailed: false,
+      gameNum: 3
     }
   }
 
@@ -34,7 +35,7 @@ class Game extends Component {
       .then(data => {
         this.setState({
           games: data.gscd.g,
-          myTeamGame: 1
+          myTeamGame: this.state.gameNum - 1
         })
       }, () => {
         this.setState({
