@@ -5,3 +5,4 @@
 .ftpignore
 *.codekit3
 node_modules/gh-pages/.cache/github.com!bullsdigital!youtube-api-test.git/
+.DS_Store
