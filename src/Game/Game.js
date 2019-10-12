@@ -52,9 +52,9 @@ class Game extends Component {
 
     const myTeamGame = this.state.games[this.state.myTeamGame];
 
-    //console.log(myTeamGame);
+    console.log(myTeamGame);
 
-    /* ARE THE BEARS HOME OR AWAY
+    /* ARE THE BULLS HOME OR AWAY
     ======================================== */
     var myTeam = '';
     var opponent = '';
@@ -67,7 +67,7 @@ class Game extends Component {
       opponent = myTeamGame.v;
     }
 
-   // console.log(myTeam);
+    console.log(myTeam);
 
 
     /* GET SCORE OF THE GAME
@@ -93,11 +93,14 @@ class Game extends Component {
       return <h2>{genNotSure}</h2>
     }
 
+    var myTeamScore = parseInt(myTeam.s, 10);
+    var opponentScore = parseInt(opponent.s, 10);
+
     function DidMyTeamWin() {
-      if ((myTeamGame.st === "3") && myTeam.s > opponent.s) {
+      if ((myTeamGame.st === "3") && myTeamScore > opponentScore) {
         return <MyTeamWin />
       }
-      if ((myTeamGame.st === "3") && myTeam.s < opponent.s) {
+      if ((myTeamGame.st === "3") && myTeamScore < opponentScore) {
         return <MyTeamLoss />
       }
       return <MyTeamInGame />
@@ -122,7 +125,7 @@ class Game extends Component {
       <React.Fragment>
         <div className="section ucbg h-100">
         <div className="container h-100">
-          <div class="align-items-center justify-content-center">
+          <div className="align-items-center justify-content-center">
           <h1>Are the Bulls Back?</h1>
           <div className="arethey">
             <DidMyTeamWin />
