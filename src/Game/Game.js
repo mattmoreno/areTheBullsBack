@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import Moment from 'react-moment';
 //çimport preloader from '../images/preloader.svg';
 
-const urlForUsername = 'http://arethebullsback.com/feed/1920/bulls_schedule_01.json';
+const urlForUsername = 'http://arethebullsback.com/feed/1920/bulls_schedule_02.json';
 
 class Game extends Component {
   constructor(props) {
     super(props)
     this.state = {
       requestFailed: false,
-      gameNum: 5
+      gameNum: 1
     }
   }
 
