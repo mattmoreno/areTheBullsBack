@@ -9,7 +9,7 @@ class Game extends Component {
     super(props)
     this.state = {
       requestFailed: false,
-      gameNum: 5
+      gameNum: 7
     }
   }
 
@@ -123,8 +123,8 @@ class Game extends Component {
 
     return (
       <React.Fragment>
-        <div className="section ucbg h-100">
-        <div className="container h-100">
+        <div className="section ucbg">
+        <div className="container">
           <div className="align-items-center justify-content-center">
           <h1>Are the Bulls Back?</h1>
           <div className="arethey">
