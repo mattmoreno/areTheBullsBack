@@ -9,7 +9,7 @@ class Game extends Component {
     super(props)
     this.state = {
       requestFailed: false,
-      gameNum: 20
+      gameNum: 21
     }
   }
 
@@ -52,7 +52,7 @@ class Game extends Component {
 
     const myTeamGame = this.state.games[this.state.myTeamGame];
 
-    console.log(myTeamGame);
+    //console.log(myTeamGame);
 
     /* ARE THE BULLS HOME OR AWAY
     ======================================== */
@@ -67,7 +67,7 @@ class Game extends Component {
       opponent = myTeamGame.v;
     }
 
-    console.log(myTeam);
+    //console.log(myTeam);
 
 
     /* GET SCORE OF THE GAME
@@ -75,7 +75,7 @@ class Game extends Component {
     var genNoWords = ["No", "Nope", "Nah", "Nay", "No Chance", "No Way", "Umm no", "Get Real", "Yea Right"];
     var	genNo = genNoWords[Math.floor(Math.random() * genNoWords.length)];
 
-    var genYesWords = ["Yes", "Yea", "Uh-Huh", "Yup", "We Back", "Yessir", "Totally", "Sure", "You Bet", "Totes", "You know it"];
+    var genYesWords = ["Yes", "Yea", "Uh-Huh", "Yup", "We Back", "Yessir", "Totally", "Sure", "You Bet", "Totes", "You know it", "You Betcha", "Oh Yeah!", "That's Right"];
     var	genYes = genYesWords[Math.floor(Math.random() * genYesWords.length)];
 
     var genNotSureWords = ["..."];
