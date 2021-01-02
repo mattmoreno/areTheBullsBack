@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import Moment from 'react-moment';
 //çimport preloader from '../images/preloader.svg';
 
-const urlForUsername = 'http://arethebullsback.com/feed/1920/bulls_schedule_02.json';
+const urlForUsername = 'http://arethebullsback.com/feed/2021/bulls_schedule_02.json';
 
 class Game extends Component {
   constructor(props) {
     super(props)
     this.state = {
       requestFailed: false,
-      gameNum: 62
+      gameNum: 6
     }
   }
 
@@ -155,7 +155,7 @@ class Game extends Component {
               </div>
 
               <div id="fullbox" className="fullbox">
-                    <a href={'https://www.nba.com/games/'+ myTeamGame.gcode} target="_blank" rel="noopener noreferrer">Full Game Details</a>
+                    <a href={'https://www.nba.com/game/' + myTeamGame.v.ta.toLowerCase() + '-vs-' + myTeamGame.h.ta.toLowerCase() + '-' + myTeamGame.gid} target="_blank" rel="noopener noreferrer">Full Game Details</a>
               </div>
 
             </div>
