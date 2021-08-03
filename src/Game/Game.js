@@ -128,10 +128,11 @@ class Game extends Component {
           <div className="align-items-center justify-content-center">
           <h1>Are the Bulls Back?</h1>
           <div className="arethey">
-            <DidMyTeamWin />
+            {/* <DidMyTeamWin /> */}
+                <h2>God damn right we are!</h2>
           </div>
 
-          <div className="boxscore row justify-content-center">
+          {/* <div className="boxscore row justify-content-center">
             <div className="col-md-6 col-lg-5">
 
               <div className="gameinfo text-center">
@@ -159,7 +160,7 @@ class Game extends Component {
               </div>
 
             </div>
-          </div>
+          </div> */}
 
           </div>
         </div>
