@@ -3,8 +3,8 @@
 
 set_time_limit(0);
 
-$url = 'http://data.nba.com/data/v2015/json/mobile_teams/nba/2020/teams/bulls_schedule_02.json';
-$file = fopen(dirname(__FILE__) . '/feed/2021/bulls_schedule_02.json', 'w+');
+$url = 'http://data.nba.com/data/v2015/json/mobile_teams/nba/2021/teams/bulls_schedule.json';
+$file = fopen(dirname(__FILE__) . '/feed/2122/bulls_schedule.json', 'w+');
 
 $curl = curl_init($url);
 

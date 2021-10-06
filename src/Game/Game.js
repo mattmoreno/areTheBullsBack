@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Moment from 'react-moment';
-//çimport preloader from '../images/preloader.svg';
+//import preloader from '../images/preloader.svg';
 
-const urlForUsername = 'http://arethebullsback.com/feed/2021/bulls_schedule_02.json';
+const urlForUsername = 'http://arethebullsback.com/feed/2122/bulls_schedule.json';
 
 class Game extends Component {
   constructor(props) {
     super(props)
     this.state = {
       requestFailed: false,
-      gameNum: 15
+      gameNum: 1
     }
   }
 
@@ -48,7 +48,7 @@ class Game extends Component {
     if (this.state.requestFailed) return null
     if (!this.state.games) return null
 
-    //console.log(this.state.games);
+    console.log(this.state.games);
 
     const myTeamGame = this.state.games[this.state.myTeamGame];
 
@@ -128,11 +128,11 @@ class Game extends Component {
           <div className="align-items-center justify-content-center">
           <h1>Are the Bulls Back?</h1>
           <div className="arethey">
-            {/* <DidMyTeamWin /> */}
-                <h2>God damn right we are!</h2>
+            <DidMyTeamWin />
+            {/* <h2>God damn right we are!</h2> */}
           </div>
 
-          {/* <div className="boxscore row justify-content-center">
+          <div className="boxscore row justify-content-center">
             <div className="col-md-6 col-lg-5">
 
               <div className="gameinfo text-center">
@@ -160,7 +160,7 @@ class Game extends Component {
               </div>
 
             </div>
-          </div> */}
+          </div>
 
           </div>
         </div>
