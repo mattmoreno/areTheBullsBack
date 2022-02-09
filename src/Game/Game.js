@@ -9,7 +9,7 @@ class Game extends Component {
     super(props)
     this.state = {
       requestFailed: false,
-      gameNum: 53 + 4
+      gameNum: 55 + 4
     }
   }
 
