@@ -9,7 +9,7 @@ class Game extends Component {
     super(props)
     this.state = {
       requestFailed: false,
-      gameNum: 82 + 4
+      gameNum: 1 + 82 + 4
     }
   }
 
@@ -138,6 +138,7 @@ class Game extends Component {
               <div className="gameinfo text-center">
                 <h4 id="gamedate"><Moment format="dddd, MMMM D, YYYY">{myTeamGame.etm}</Moment></h4>
                 <h5 id="gamearena">{myTeamGame.an} | {myTeamGame.ac}, {myTeamGame.as}</h5>
+                <h5 id="gameseries" className="gamespace">{myTeamGame.seri}</h5>
               </div>
 
               <div className="gamescores row">
